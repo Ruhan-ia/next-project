@@ -1,0 +1,196 @@
+[
+    {
+      "id": 1,
+      "coffeeName": "Espresso",
+      "image": "https://i.ibb.co.com/5gfyLh4w/11389.jpg",
+      "price": 2.5,
+      "ratings": 4.7,
+      "category": "hot"
+    },
+    {
+      "id": 2,
+      "coffeeName": "Cappuccino",
+      "image": "https://i.ibb.co.com/RWtwNdR/fresh-sandwich-with-fresh-vegetables-coffee.jpg",
+      "price": 3.0,
+      "ratings": 4.8,
+      "category": "cold"
+    },
+    {
+      "id": 3,
+      "coffeeName": "Latte",
+      "image": "https://i.ibb.co.com/27kYHFmC/paulo-felipe-assis-NCbf-Pjj-FJt-A-unsplash.jpg",
+      "price": 3.5,
+      "ratings": 4.6,
+      "category": "hot"
+    },
+    {
+      "id": 4,
+      "coffeeName": "Americano",
+      "image": "https://i.ibb.co.com/gMFZpNFZ/side-view-cornel-berries-bowl-cup-tea-with-closed-books-blue-background.jpg",
+      "price": 2.0,
+      "ratings": 4.5,
+      "category": "hot"
+    },
+    {
+      "id": 5,
+      "coffeeName": "Mocha",
+      "image": "https://i.ibb.co.com/tTfvydvJ/espresso-dark-background-steam-rises-coffee-coffee-breakfast-italian-cafe-shop-vertical-shot-selecti.jpg",
+      "price": 4.0,
+      "ratings": 4.9,
+      "category": "premier"
+    },
+    {
+      "id": 6,
+      "coffeeName": "Macchiato",
+      "image": "https://i.ibb.co.com/Dfn0k4n2/close-up-view-delicious-pancake-around-cup-coffee-gray.jpg",
+      "price": 3.2,
+      "ratings": 4.7,
+      "category": "hot"
+    },
+    {
+      "id": 7,
+      "coffeeName": "Flat White",
+      "image": "https://i.ibb.co.com/vCpPfJWS/vertical-shot-hot-coffee-with-waffles.jpg",
+      "price": 3.8,
+      "ratings": 4.6,
+      "category": "cold"
+    },
+    {
+      "id": 8,
+      "coffeeName": "Cold Brew",
+      "image": "https://i.ibb.co.com/pvMS5LzC/cup-coffee-with-heart-drawn-foam.jpg",
+      "price": 3.0,
+      "ratings": 4.5,
+      "category": "hot"
+    },
+    {
+      "id": 9,
+      "coffeeName": "Espresso",
+      "image": "https://i.ibb.co.com/Wvxq8v16/latte-hot-hand-coffee-cup.jpg",
+      "price": 2.5,
+      "ratings": 4.7,
+      "category": "premier"
+    },
+    {
+      "id": 10,
+      "coffeeName": "Cappuccino",
+      "image": "https://i.ibb.co.com/Wvxq8v16/latte-hot-hand-coffee-cup.jpg",
+      "price": 3.0,
+      "ratings": 4.8,
+      "category": "cold"
+    },
+    {
+      "id": 11,
+      "coffeeName": "Latte",
+      "image": "https://i.ibb.co.com/Wvxq8v16/latte-hot-hand-coffee-cup.jpg",
+      "price": 3.5,
+      "ratings": 4.6,
+      "category": "hot"
+    },
+    {
+      "id": 12,
+      "coffeeName": "Americano",
+      "image": "https://i.ibb.co.com/MxW2t65p/10578326-4477349.jpg",
+      "price": 2.0,
+      "ratings": 4.5,
+      "category": "hot"
+    },
+    {
+      "id": 13,
+      "coffeeName": "Mocha",
+      "image": "https://i.ibb.co.com/pvMS5LzC/cup-coffee-with-heart-drawn-foam.jpg",
+      "price": 4.0,
+      "ratings": 4.9,
+      "category": "premier"
+    },
+    {
+      "id": 14,
+      "coffeeName": "Macchiato",
+      "image": "https://i.ibb.co.com/vCpPfJWS/vertical-shot-hot-coffee-with-waffles.jpg",
+      "price": 3.2,
+      "ratings": 4.7,
+      "category": "hot"
+    },
+    {
+      "id": 15,
+      "coffeeName": "Flat White",
+      "image": "https://i.ibb.co.com/gMFZpNFZ/side-view-cornel-berries-bowl-cup-tea-with-closed-books-blue-background.jpg",
+      "price": 3.8,
+      "ratings": 4.6,
+      "category": "cold"
+    },
+    {
+      "id": 16,
+      "coffeeName": "Cold Brew",
+      "image": "https://i.ibb.co.com/bRX6SkhS/cup-delicious-coffee.jpg",
+      "price": 3.0,
+      "ratings": 4.5, 
+      "category": "premier"
+    },
+    {
+      "id": 17,
+      "coffeeName": "Espresso",
+      "image": "https://i.ibb.co.com/5gfyLh4w/11389.jpg",
+      "price": 2.5,
+      "ratings": 4.7,
+      "category": "hot"
+    },
+    {
+      "id": 18,
+      "coffeeName": "Cappuccino",
+      "image": "https://i.ibb.co.com/gbV36ms5/cup-three-layered-coffee-dark.jpg",
+      "price": 3.0,
+      "ratings": 4.8,
+      "category": "cold"
+    },
+    {
+      "id": 19,
+      "coffeeName": "Latte",
+      "image": "https://i.ibb.co.com/27kYHFmC/paulo-felipe-assis-NCbf-Pjj-FJt-A-unsplash.jpg",
+      "price": 3.5,
+      "ratings": 4.6,
+      "category": "hot"
+    },
+    {
+      "id": 20,
+      "coffeeName": "Americano",
+      "image": "https://i.ibb.co.com/tTfvydvJ/espresso-dark-background-steam-rises-coffee-coffee-breakfast-italian-cafe-shop-vertical-shot-selecti.jpg",
+      "price": 2.0,
+      "ratings": 4.5,
+      "category": "hot"
+    },
+    {
+      "id": 21,
+      "coffeeName": "Mocha",
+      "image": "https://i.ibb.co.com/tTfvydvJ/espresso-dark-background-steam-rises-coffee-coffee-breakfast-italian-cafe-shop-vertical-shot-selecti.jpg",
+      "price": 4.0,
+      "ratings": 4.9,
+      "category": "premier"
+    },
+    {
+      "id": 22,
+      "coffeeName": "Macchiato",
+      "image": "https://i.ibb.co.com/bRX6SkhS/cup-delicious-coffee.jpg",
+      "price": 3.2,
+      "ratings": 4.7,
+      "category": "hot"
+    },
+    {
+      "id": 23,
+      "coffeeName": "Flat White",
+      "image": "https://i.ibb.co.com/7NKZ33YR/front-view-coffee-latte-with-coffee-beans.jpg",
+      "price": 3.8,
+      "ratings": 4.6,
+      "category": "cold"
+    },
+    {
+      "id": 24,
+      "coffeeName": "Cold Brew",
+      "image": "https://i.ibb.co.com/pvMS5LzC/cup-coffee-with-heart-drawn-foam.jpg",
+      "price": 3.0,
+      "ratings": 4.5, 
+      "category": "premier"
+    }
+
+    
+  ]

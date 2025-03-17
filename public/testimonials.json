@@ -1,0 +1,62 @@
+[
+    {
+      "photo": "https://i.ibb.co.com/5gfyLh4w/11389.jpg",
+      "name": "John Doe",
+      "designation": "CEO, Tech Solutions",
+      "details": "Working with this team has been an absolute pleasure. Their expertise and dedication are unmatched."
+    },
+    {
+      "photo": "https://i.ibb.co.com/RWtwNdR/fresh-sandwich-with-fresh-vegetables-coffee.jpg",
+      "name": "Jane Smith",
+      "designation": "Marketing Manager, Bright Ideas",
+      "details": "The results exceeded our expectations. Highly recommend their services!"
+    },
+    {
+      "photo": "https://i.ibb.co.com/27kYHFmC/paulo-felipe-assis-NCbf-Pjj-FJt-A-unsplash.jpg",
+      "name": "Michael Brown",
+      "designation": "Founder, Green Energy Co.",
+      "details": "Their innovative approach helped us achieve our goals faster than we anticipated."
+    },
+    {
+      "photo": "https://i.ibb.co.com/gMFZpNFZ/side-view-cornel-berries-bowl-cup-tea-with-closed-books-blue-background.jpg",
+      "name": "Emily Davis",
+      "designation": "Product Manager, Creative Minds",
+      "details": "Professional, reliable, and always delivers on time. A true partner in success."
+    },
+    {
+      "photo":"https://i.ibb.co.com/Wvxq8v16/latte-hot-hand-coffee-cup.jpg",
+      "name": "David Wilson",
+      "designation": "CTO, Future Tech",
+      "details": "Their technical expertise is top-notch. They transformed our vision into reality."
+    },
+    {
+      "photo": "https://i.ibb.co.com/tTfvydvJ/espresso-dark-background-steam-rises-coffee-coffee-breakfast-italian-cafe-shop-vertical-shot-selecti.jpg",
+      "name": "Sarah Johnson",
+      "designation": "HR Director, People First",
+      "details": "A fantastic team to work with. They truly care about their clients."
+    },
+    {
+      "photo": "https://i.ibb.co.com/Dfn0k4n2/close-up-view-delicious-pancake-around-cup-coffee-gray.jpg",
+      "name": "Chris Evans",
+      "designation": "Sales Director, Global Reach",
+      "details": "Their strategies have significantly boosted our sales. Highly impressed!"
+    },
+    {
+      "photo": "https://i.ibb.co.com/vCpPfJWS/vertical-shot-hot-coffee-with-waffles.jpg",
+      "name": "Laura Martinez",
+      "designation": "Operations Manager, Efficient Works",
+      "details": "Efficient, professional, and always goes the extra mile. Highly recommend!"
+    },
+    {
+      "photo": "https://i.ibb.co.com/pvMS5LzC/cup-coffee-with-heart-drawn-foam.jpg",
+      "name": "Daniel Garcia",
+      "designation": "Finance Director, Smart Investments",
+      "details": "Their insights have been invaluable to our financial planning. Thank you!"
+    },
+    {
+      "photo": "https://i.ibb.co.com/Wvxq8v16/latte-hot-hand-coffee-cup.jpg",
+      "name": "Olivia Taylor",
+      "designation": "Creative Director, Artistry Inc.",
+      "details": "Their creativity and attention to detail are second to none. A joy to work with!"
+    }
+  ]

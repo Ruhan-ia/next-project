@@ -13,5 +13,13 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: false, // Disable DaisyUI themes if not needed
+    base: false, // Disable DaisyUI base styles to avoid conflicts
+    utils: true, // Enable DaisyUI utility classes
+    logs: false, // Disable DaisyUI logs in the console
+  },
 };
