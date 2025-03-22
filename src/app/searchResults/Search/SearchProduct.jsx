@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { usePathname, useRouter } from 'next/navigation';
 import { FiSearch } from 'react-icons/fi';
 import Link from 'next/link';
-import useMenu from '../../Component/Hooks/useMenu';
 import { useSearch } from '@/app/Component/Context/searchContext';
+import useMenu from '@/app/Component/Hooks/useMenu';
 
 const SearchPage = () => {
     const {
@@ -19,8 +19,14 @@ const SearchPage = () => {
     } = useSearch();
     const router = useRouter();
     const pathName = usePathname();
-    const [coffees] = useMenu();
+    const [coffees, loading] = useMenu();
 
+
+    console.log('Coffees:', coffees); // Log the coffees array
+    console.log('Search Query:', searchQuery); // Log the search query
+    console.log('Search Results:', searchResults); // Log the search results
+
+   
     // Debounce function to limit the frequency of search updates
     const debounce = (func, delay) => {
         let timeoutId;
@@ -32,9 +38,9 @@ const SearchPage = () => {
 
     // Handle search input changes
     const handleSearch = debounce((query) => {
-        if (query.length >= 2) {
+        if (!loading && query.length >= 2 && Array.isArray(coffees)) {
             const filteredSuggestions = coffees.filter((item) =>
-                item.coffeeName.toLowerCase().includes(query.toLowerCase())
+                item?.coffeeName?.toLowerCase().includes(query.toLowerCase())
             );
             setSearchResults(filteredSuggestions);
         } else {
@@ -42,6 +48,8 @@ const SearchPage = () => {
         }
     }, 300);
 
+  
+  
     // Handle key press (e.g., Enter key)
     const handleKeyPress = (e) => {
         if (e.key === 'Enter' && searchQuery.length >= 2) {
@@ -94,11 +102,14 @@ const SearchPage = () => {
                             }}
                             value={searchQuery}
                             onKeyPress={handleKeyPress}
+                            disabled={loading}
                         />
 
                         {/* Search Results */}
                         <div className='mt-6 w-80'>
-                            {searchResults.length > 0 ? (
+                        {loading ? (
+                                <p>Loading...</p>
+                            ) : searchResults.length > 0 ? (
                                 searchResults.map((result) => (
                                     <motion.div
                                         key={result.id}

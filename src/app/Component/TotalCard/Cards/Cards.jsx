@@ -6,12 +6,14 @@ import useMenu from '../../Hooks/useMenu';
 import CardCategories from '../CardCategory/CardCategory';
 
 const Cards = () => {
-    const [coffees] = useMenu()
+    const [coffees, loading] = useMenu()
     const [tabIndex, setTabIndex] = useState(0)
-
-    const hot = coffees.filter(coffee => coffee.category === 'hot')
-    const cold = coffees.filter(coffee => coffee.category === 'cold')
-    const premier = coffees.filter(coffee => coffee.category === 'premier')
+    if (loading) {
+      return <div>Loading...</div>;
+  }
+    const hot = coffees?.filter(coffee => coffee?.category === 'hot')
+    const cold = coffees?.filter(coffee => coffee?.category === 'cold')
+    const premier = coffees?.filter(coffee => coffee?.category === 'premier')
     
        
         
