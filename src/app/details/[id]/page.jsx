@@ -12,7 +12,7 @@ const CardDetails = () => {
  
 
     if (loading) {
-        return <div className="text-center py-8">Loading...</div>;
+        return <span className="loading loading-bars loading-xl"></span>;
     }
 
     if (!coffees.length) {

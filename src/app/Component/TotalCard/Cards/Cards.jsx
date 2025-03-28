@@ -9,7 +9,7 @@ const Cards = () => {
     const [coffees, loading] = useMenu()
     const [tabIndex, setTabIndex] = useState(0)
     if (loading) {
-      return <div>Loading...</div>;
+      return <span className="loading loading-bars loading-xl"></span>;
   }
     const hot = coffees?.filter(coffee => coffee?.category === 'hot')
     const cold = coffees?.filter(coffee => coffee?.category === 'cold')

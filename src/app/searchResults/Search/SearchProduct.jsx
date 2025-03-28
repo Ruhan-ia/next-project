@@ -108,7 +108,7 @@ const SearchPage = () => {
                         {/* Search Results */}
                         <div className='mt-6 w-80'>
                         {loading ? (
-                                <p>Loading...</p>
+                                <span className="loading loading-bars loading-xl"></span>
                             ) : searchResults.length > 0 ? (
                                 searchResults.map((result) => (
                                     <motion.div
