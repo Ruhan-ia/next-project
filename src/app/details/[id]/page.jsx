@@ -20,7 +20,7 @@ const CardDetails = () => {
     }
 
     // Convert `id` to a number before comparing
-    const singleCard = coffees.find((coffee) => coffee.id === Number(id));
+    const singleCard = coffees?.find((coffee) => coffee?._id === id);
     console.log('Single Card:', singleCard);
 
     if (!singleCard) {
@@ -36,10 +36,10 @@ const CardDetails = () => {
   </div>
 </div>
         <div className="card-body">
-          <h2 className="card-title">{singleCard.coffeeName}</h2>
-          <p>Category:{singleCard.category}</p>
-          <p>Price:${singleCard.price}</p>
-          <p>Ratings:{singleCard.ratings}</p>
+          <h2 className="card-title">{singleCard?.coffeeName}</h2>
+          <p>Category:{singleCard?.category}</p>
+          <p>Price:${singleCard?.price}</p>
+          <p>Ratings:{singleCard?.ratings}</p>
           <div className="card-actions justify-end">
             <button className="btn btn-primary">Add To Cart</button>
           </div>

@@ -16,7 +16,7 @@ const SearchResultsPage = () => {
             <div className="overflow-hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 {searchResults.length > 0 ? (
                     searchResults?.map((result) => (
-                        <div key={result.id} className="transform-origin-center card relative group overflow-hidden shadow-lg p-4 text-center rounded-md transition-transform duration-300 hover:scale-105">
+                        <div key={result._id} className="transform-origin-center card relative group overflow-hidden shadow-lg p-4 text-center rounded-md transition-transform duration-300 hover:scale-105">
       <div className="avatar relative">
         <div className="w-full rounded-xl overflow-hidden">
           <Image
@@ -28,7 +28,7 @@ const SearchResultsPage = () => {
           />
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center">
-          <Link href={`details/${result.id}`} legacyBehavior>
+          <Link href={`details/${result._id}`} legacyBehavior>
             <p className="opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 font-bold bg-gray-300 px-4 py-2 rounded-lg hover:bg-gray-400">
               View Details
             </p>

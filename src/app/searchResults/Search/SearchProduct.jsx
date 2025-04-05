@@ -112,14 +112,14 @@ const SearchPage = () => {
                             ) : searchResults.length > 0 ? (
                                 searchResults.map((result) => (
                                     <motion.div
-                                        key={result.id}
+                                        key={result._id}
                                         initial={{ opacity: 0, y: -10 }}
                                         animate={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.3 }}
                                         className='p-2 hover:bg-gray-100 rounded-lg transition-colors'
                                         onClick={() => setIsSearchOpen(false)}
                                     >
-                                        <Link href={`/details/${result.id}`}>
+                                        <Link href={`/details/${result._id}`}>
                                             {result.coffeeName}
                                         </Link>
                                     </motion.div>

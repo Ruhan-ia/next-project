@@ -28,8 +28,30 @@ const SubmissionForm = () => {
   
   })
   const result = await res.json();
-  console.log(result.data.display_url);
-  ;}
+
+  if(result.data ) {
+    const coffeeData = {
+      coffeeName: data.coffeeName,
+      category: data.category,
+      price: parseFloat(data.price),
+      ratings: parseFloat(data.ratings),
+      image: result.data.display_url,
+    };
+    const response = await fetch('/api/items', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(coffeeData),})
+
+      const responseData = await response.json();
+      console.log(responseData);
+      if (responseData.insertedId) {
+        console.log('Coffee data uploaded successfully!');
+        console.log(responseData.insertedId);
+      }
+  
+  }console.log(result.data);}
   catch (error) {
     console.error('Error uploading image:', error);
   }}
