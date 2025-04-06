@@ -58,7 +58,7 @@ const SearchResultsContent = () => {
 };
 const SearchResultsPage = () => {
   return (
-    <Suspense fallback={<div>Loading search results...</div>}>
+    <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
         <SearchResultsContent />
     </Suspense>
 );

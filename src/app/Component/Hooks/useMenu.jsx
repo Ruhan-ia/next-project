@@ -8,7 +8,7 @@ const useMenu = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://localhost:3000/api/items'); // Ensure this matches your API endpoint
+                const response = await fetch('https://next-project-psi-azure.vercel.app'); // Ensure this matches your API endpoint
                 if (!response.ok) {
                     throw new Error('Failed to fetch data');
                 }
