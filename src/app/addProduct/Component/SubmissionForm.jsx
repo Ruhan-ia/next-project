@@ -14,7 +14,7 @@ const SubmissionForm = () => {
   } = useForm()
   const img_hosting_key = process.env.NEXT_PUBLIC_img_hosting_key
 
-
+  
 
   const onSubmit = async(data) =>{  
     console.log(data)
@@ -37,12 +37,17 @@ const SubmissionForm = () => {
       ratings: parseFloat(data.ratings),
       image: result.data.display_url,
     };
-    const response = await fetch('/api/items', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(coffeeData),})
+   
+
+
+const response = await fetch('https://next-project-psi-azure.vercel.app/api/items', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify(coffeeData),
+});
+
 
       const responseData = await response.json();
       console.log(responseData);
